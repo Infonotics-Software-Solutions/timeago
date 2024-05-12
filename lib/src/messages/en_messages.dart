@@ -7,31 +7,31 @@ class EnMessages implements LookupMessages {
   @override
   String prefixFromNow() => '';
   @override
-  String suffixAgo() => 'ago';
+  String suffixAgo() => '';
   @override
   String suffixFromNow() => 'from now';
   @override
-  String lessThanOneMinute(int seconds) => 'a moment';
+  String lessThanOneMinute(int seconds) => '${seconds}s';
   @override
-  String aboutAMinute(int minutes) => 'a minute';
+  String aboutAMinute(int minutes) => '${minutes}m';
   @override
-  String minutes(int minutes) => '$minutes minutes';
+  String minutes(int minutes) => '${minutes}m';
   @override
-  String aboutAnHour(int minutes) => 'about an hour';
+  String aboutAnHour(int minutes) => '${minutes}m';
   @override
-  String hours(int hours) => '$hours hours';
+  String hours(int hours) => '${hours}h';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => '${hours}h';
   @override
-  String days(int days) => '$days days';
+  String days(int days) => '${days}D';
   @override
-  String aboutAMonth(int days) => 'about a month';
+  String aboutAMonth(int days) => '${days}D';
   @override
-  String months(int months) => '$months months';
+  String months(int months) => '${months}M';
   @override
-  String aboutAYear(int year) => 'about a year';
+  String aboutAYear(int year) => '${year}Y';
   @override
-  String years(int years) => '$years years';
+  String years(int years) => '${years}Y';
   @override
   String wordSeparator() => ' ';
 }
