@@ -9,27 +9,27 @@ class EnMessages implements LookupMessages {
   @override
   String suffixAgo() => '';
   @override
-  String suffixFromNow() => 'from now';
+  String suffixFromNow() => '';
   @override
-  String lessThanOneMinute(int seconds) => '${seconds}s';
+  String lessThanOneMinute(int seconds) => 'now';
   @override
-  String aboutAMinute(int minutes) => '${minutes}m';
+  String aboutAMinute(int minutes) => '1m';
   @override
   String minutes(int minutes) => '${minutes}m';
   @override
-  String aboutAnHour(int minutes) => '${minutes}m';
+  String aboutAnHour(int minutes) => '~1h';
   @override
   String hours(int hours) => '${hours}h';
   @override
-  String aDay(int hours) => '${hours}h';
+  String aDay(int hours) => '~1D';
   @override
   String days(int days) => '${days}D';
   @override
-  String aboutAMonth(int days) => '${days}D';
+  String aboutAMonth(int days) => '~1M';
   @override
   String months(int months) => '${months}M';
   @override
-  String aboutAYear(int year) => '${year}Y';
+  String aboutAYear(int year) => '~1Y';
   @override
   String years(int years) => '${years}Y';
   @override
